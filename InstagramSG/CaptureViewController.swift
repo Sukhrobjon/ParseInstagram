@@ -94,7 +94,7 @@ class CaptureViewController: UIViewController, UINavigationControllerDelegate, U
                 self.captionField.text = nil
                 self.tabBarController?.selectedIndex = 0
             } else {
-                print("Sorry! Error posting image to DB")
+                print("Sorry! Error posting image")
             }
             
         }

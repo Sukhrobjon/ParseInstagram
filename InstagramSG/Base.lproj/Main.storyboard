@@ -104,9 +104,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ff-KC-Gu8">
-                                <rect key="frame" x="20" y="106" width="280" height="268"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIh-pe-vQa">
                                 <rect key="frame" x="53" y="227" width="44" height="30"/>
                                 <state key="normal" title="added"/>
@@ -121,6 +118,9 @@
                                     <action selector="onPhotosSelected:" destination="Pjp-p3-9ZR" eventType="touchUpInside" id="sgD-cr-2dv"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ff-KC-Gu8">
+                                <rect key="frame" x="20" y="106" width="280" height="268"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LF4-rr-TmV">
                                 <rect key="frame" x="131" y="431" width="58" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
